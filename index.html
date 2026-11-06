@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>FaZe Clan | Counter-Strike 2</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="nav" id="nav">
+  <a class="brand" href="#top"><img src="images/logo/faze-logo.png" alt="FaZe"><span>FAZE CLAN</span></a>
+  <button class="burger" id="burger" aria-label="Menu"><i></i><i></i><i></i></button>
+  <nav id="menu">
+    <a href="#lineup">Lineup</a><a href="#journey">Journey</a><a href="#trophies">Trophies</a><a href="#legends">Legends</a><a href="#faq">FAQ</a>
+    <a class="btn small" href="https://liquipedia.net/counterstrike/FaZe_Clan" target="_blank" rel="noopener">Liquipedia</a>
+  </nav>
+</header>
+
+<section class="hero" id="top">
+  <svg class="xh xh1" viewBox="0 0 200 200" fill="none" stroke="currentColor" stroke-width="3"><circle cx="100" cy="100" r="70"/><circle cx="100" cy="100" r="6" fill="currentColor"/><path d="M100 8v58M100 134v58M8 100h58M134 100h58"/></svg>
+  <svg class="xh xh2" viewBox="0 0 200 200" fill="none" stroke="currentColor" stroke-width="3"><circle cx="100" cy="100" r="70"/><path d="M100 8v58M100 134v58M8 100h58M134 100h58"/></svg>
+  <div class="wrap hero-in">
+    <p class="eyebrow reveal">Elite Counter-Strike 2 + Creator Culture = FaZe</p>
+    <img class="hero-logo reveal" src="images/logo/faze-logo.png" alt="FaZe Clan logo">
+    <h1 class="reveal">WE’RE THE TEAM THAT <em>PLAYS TO WIN</em> COUNTER-STRIKE 2.</h1>
+    <p class="lead reveal">Founded in 2010. Antwerp Major champions in 2022. A rebuilt 2026 lineup with a new head coach, hungry to climb the rankings again.</p>
+    <div class="stats reveal">
+      <div><b data-count="16">0</b>+<span>Years Active</span></div>
+      <div><b data-count="2022">0</b><span>Major Champions</span></div>
+      <div><b data-count="10">0</b>M+<span>USD Winnings</span></div>
+    </div>
+    <div class="cta reveal"><a class="btn" href="#lineup">Meet the Lineup</a><a class="btn ghost" href="#journey">Our Story</a></div>
+  </div>
+</section>
+
+<section class="sec" id="lineup">
+  <div class="wrap">
+    <p class="kicker reveal">Tap a player to see details</p>
+    <h2 class="reveal">THE <em>LINEUP</em></h2>
+    <p class="sub reveal">Five players and a head coach. Tap any card to open their details.</p>
+    <div class="cards" id="cards"></div>
+    <p class="fine reveal">The lineup changes often. Check Liquipedia for the latest.</p>
+  </div>
+</section>
+
+<section class="sec alt" id="journey">
+  <div class="wrap">
+    <p class="kicker reveal">Our process, our story</p>
+    <h2 class="reveal">HOW WE GOT <em>HERE</em></h2>
+    <div class="steps">
+      <article class="step reveal"><span>1</span><small>2010 – 2016</small><h3>Rise</h3><p>FaZe is founded in 2010 and enters Counter-Strike in 2016 by acquiring the G2 CS:GO team.</p></article>
+      <article class="step reveal"><span>2</span><small>2017 – 2022</small><h3>Win</h3><p>Stars like NiKo, GuardiaN and olofmeister arrive. Sydney and Belo Horizonte 2018 follow, then Twistzz and ropz lead the 2022 Antwerp Major run.</p></article>
+      <article class="step reveal"><span>3</span><small>2024 – 2026</small><h3>Rebuild</h3><p>GameSquare acquires FaZe in 2024. Two CS2 Major finals later, the roster is rebuilt in 2026 under head coach enkay J.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="trophies">
+  <div class="wrap">
+    <p class="kicker reveal">Built for big stages</p>
+    <h2 class="reveal">SOME OF OUR <em>FAVORITE WINS</em></h2>
+    <div class="trophies">
+      <a class="tcard reveal"><small>Major</small><h3>PGL Major Antwerp 2022</h3><p>First international team to win a CS:GO Major.</p></a>
+      <a class="tcard reveal"><small>Premier</small><h3>IEM Katowice 2022</h3><p>Won with jks stepping in as a stand-in.</p></a>
+      <a class="tcard reveal"><small>Premier</small><h3>BLAST Pro Series Miami 2019</h3><p>Won with AdreN as a stand-in.</p></a>
+      <a class="tcard reveal"><small>Premier</small><h3>ESL One Belo Horizonte 2018</h3><p>Won with cromen as a stand-in.</p></a>
+      <a class="tcard reveal"><small>Premier</small><h3>IEM Sydney 2018</h3><p>Won with Xizt as a stand-in.</p></a>
+      <a class="tcard reveal"><small>Finals</small><h3>Four Major Finals Lost</h3><p>Tied for the most Major finals lost with NiP and NAVI.</p></a>
+    </div>
+  </div>
+</section>
+
+<section class="legends" id="legends">
+  <p class="kicker center">Legends who wore the logo</p>
+  <div class="marquee"><div class="track" id="track"></div></div>
+</section>
+
+<section class="sec alt" id="faq">
+  <div class="wrap narrow">
+    <p class="kicker reveal">But what about…</p>
+    <h2 class="reveal"><em>FAQ</em></h2>
+    <div class="faq reveal" id="faqList"></div>
+  </div>
+</section>
+
+<section class="final">
+  <div class="wrap center reveal">
+    <h2>YOUR TEAM CAN BE <em>KNOWN FOR ITS STRENGTH</em></h2>
+    <p class="sub">Follow the roster, the results and the next Major run.</p>
+    <a class="btn" href="https://liquipedia.net/counterstrike/FaZe_Clan" target="_blank" rel="noopener">Open Liquipedia Page</a>
+  </div>
+</section>
+
+<footer class="foot">
+  <img src="images/logo/faze-logo.png" alt="FaZe">
+  <p>Fan-made page. FaZe Clan is a trademark of its owners. Data from Liquipedia.</p>
+</footer>
+
+<div class="modal" id="modal" aria-hidden="true">
+  <div class="sheet" role="dialog" aria-modal="true" aria-labelledby="mName">
+    <button class="close" id="close" aria-label="Close">×</button>
+    <div class="m-photo"><img id="mImg" alt=""></div>
+    <div class="m-body">
+      <small id="mRole"></small>
+      <h3 id="mName"></h3>
+      <dl id="mInfo"></dl>
+      <p id="mBio"></p>
+    </div>
+  </div>
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>
